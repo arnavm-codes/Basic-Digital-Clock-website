@@ -1,0 +1,26 @@
+body{
+    background-image: url('wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#display{
+    font-family: monospace;
+    font-size: 6em;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+    backdrop-filter: blur(0.8px);
+    background-color: hsl(0, 0%, 0% ,0.85);
+}
